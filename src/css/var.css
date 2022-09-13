@@ -1,0 +1,12 @@
+:root {
+    --font-family-deca: 'Lexend Deca', sans-serif;
+    --font-family-big: 'Big Shoulders Display', cursive;
+
+    --color-primary-bright: hsl(31, 77%, 52%);
+    --color-primary-dark: hsl(184, 100%, 22%);
+    --color-primary-very-dark: hsl(179, 100%, 13%);
+
+    --color-neutral-transparent: hsla(0, 0%, 100%, 0.75);
+    --color-neutral-light: hsl(0, 0%, 95%);
+
+}

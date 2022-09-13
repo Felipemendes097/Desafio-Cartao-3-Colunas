@@ -1,0 +1,10 @@
+@media(max-width:900px) {
+    div.card-principal {
+        display: block;
+        margin-top: 3em;
+    }
+
+    .card-sedan {
+        border-radius: 0;
+    }
+}

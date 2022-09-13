@@ -1,0 +1,87 @@
+body {
+    background-color: var(--color-neutral-light);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+div.card-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    height: 31em;
+    width: 19em;
+}
+
+.card .img-card {
+    margin: 2.8em;
+}
+
+.card .title {
+    margin-left: 1.2em;
+    font-family: var(--font-family-big);
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    color: var(--color-neutral-light);
+}
+
+.card .info {
+    padding-left: 3em;
+    margin-right: 3em;
+    font-family: var(--font-family-deca);
+    letter-spacing: 0.5px;
+    word-spacing: 0.7px;
+    line-height: 1.6em;
+    word-wrap: wrap;
+    font-size: 15px;
+    color: var(--color-neutral-light);
+}
+
+div .btn {
+    display: flex;
+}
+
+.btn-txt {
+    height: 2.5em;
+    width: 8em;
+    background-color: var(--color-neutral-light);
+    border-radius: 5em;
+    text-align: center;
+    padding: 10px;
+    margin-top: 4em;
+    margin-left: 3em;
+    font-family: var(--font-family-deca);
+}
+
+p.sedan {
+    color: var(--color-primary-bright);
+}
+
+p.suv {
+    color: var(--color-primary-dark);
+}
+
+p.luxury {
+    color: var(--color-primary-very-dark);
+}
+
+.card-sedan {
+    background-color: var(--color-primary-bright);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-suv {
+    background-color: var(--color-primary-dark);
+}
+
+.card-luxury {
+    background-color: var(--color-primary-very-dark);
+}
